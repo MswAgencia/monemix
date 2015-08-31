@@ -1,0 +1,103 @@
+@font-face {
+	font-family: "Calibri";
+	src: url('../fonts/613677979-Calibri.eot');
+	src: url('../fonts/613677979-Calibri.eot?#iefix') format('embedded-opentype'), url('../fonts/613677979-Calibri.svg#Calibri') format('svg'), url('../fonts/613677979-Calibri.woff') format('woff'), url('../fonts/613677979-Calibri.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// variáveis
+$rosa: #F0428C;
+$roxo: #533284;
+$azul: #3a49a4;
+
+body {
+  font-weight: 300;
+}
+
+a {
+  color: #333333;
+}
+
+footer {
+  background-color: $azul;
+  border-top: 1px solid lighten($azul, 25%);
+}
+
+#top {
+  background-color: $rosa;
+  border-bottom: none;
+}
+
+#top-links {
+  li {
+    color: #FFFFFF;
+		text-shadow: none;
+  }
+  li a {
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-bottom: 5px;
+		text-shadow: none;
+
+    &:hover {
+      color: #FFFFFF;
+      border-bottom: solid 1px #FFF;
+    }
+  }
+
+	.open {
+		> a, > a:hover {
+			background-color: transparent;
+			border-bottom: solid 1px #FFF;
+		}
+
+		.dropdown-menu {
+			padding: 0;
+			background: $rosa;
+			li:hover a {
+				background-color: $roxo;
+				background-image: linear-gradient(to bottom, $roxo, darken($roxo, 5%));
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+#menu {
+  background-color: $rosa;
+  background-image: none;
+  border: none;
+
+  .btn-navbar {
+    background-color: $rosa;
+    background-image: none;
+    border-color: darken($rosa, 10%);
+  }
+}
+
+.btn-inverse {
+  background-color: $roxo;
+  background-image: linear-gradient(to bottom, $roxo, darken($roxo, 3%));
+  background-repeat: repeat-x;
+  border-color: $roxo $roxo darken($roxo, 3%);
+
+  &:hover {
+    background-color: lighten($roxo, 10%);
+    background-image: linear-gradient(to bottom, lighten($roxo, 10%), darken(lighten($roxo, 10%), 5%));
+    background-repeat: repeat-x;
+    border-color: lighten($roxo, 10%) lighten($roxo, 10%) darken(lighten($roxo, 10%), 5%);
+  }
+}
+
+.btn-primary {
+  background-color: darken($rosa, 5%);
+  background-image: linear-gradient(to bottom, darken($rosa, 5%), darken($rosa, 15%));
+  border-color: darken($rosa, 10%) darken($rosa, 10%) darken($rosa, 16%);
+
+  &:hover {
+    background-color: lighten(darken($rosa, 5%), 10%);
+    background-image: linear-gradient(to bottom, lighten(darken($rosa, 5%), 10%), lighten(darken($rosa, 15%), 20%));
+    border-color: darken($rosa, 5%) darken($rosa, 5%) darken($rosa, 10%);
+  }
+}

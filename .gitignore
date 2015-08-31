@@ -1,0 +1,9 @@
+/config.php
+/admin/config.php
+/vqmod/logs/*
+/vqmod/vqcache/*
+install.lock/*
+/system/cache/*
+/system/logs/*.txt
+*.DS_Store
+/catalog/view/theme/stardom/*

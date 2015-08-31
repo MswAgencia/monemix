@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../fonts/613677979-Calibri.eot");
+  src: url("../fonts/613677979-Calibri.eot?#iefix") format("embedded-opentype"), url("../fonts/613677979-Calibri.svg#Calibri") format("svg"), url("../fonts/613677979-Calibri.woff") format("woff"), url("../fonts/613677979-Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-weight: 300; }
+
+a {
+  color: #333333; }
+
+footer {
+  background-color: #3a49a4;
+  border-top: 1px solid #8893d5; }
+
+#top {
+  background-color: #F0428C;
+  border-bottom: none; }
+
+#top-links li {
+  color: #FFFFFF;
+  text-shadow: none; }
+#top-links li a {
+  color: #FFFFFF;
+  font-weight: normal;
+  padding-bottom: 5px;
+  text-shadow: none; }
+  #top-links li a:hover {
+    color: #FFFFFF;
+    border-bottom: solid 1px #FFF; }
+#top-links .open > a, #top-links .open > a:hover {
+  background-color: transparent;
+  border-bottom: solid 1px #FFF; }
+#top-links .open .dropdown-menu {
+  padding: 0;
+  background: #F0428C; }
+  #top-links .open .dropdown-menu li:hover a {
+    background-color: #533284;
+    background-image: linear-gradient(to bottom, #533284, #472b72);
+    border-bottom: none; }
+
+#menu {
+  background-color: #F0428C;
+  background-image: none;
+  border: none; }
+  #menu .btn-navbar {
+    background-color: #F0428C;
+    background-image: none;
+    border-color: #ec136f; }
+
+.btn-inverse {
+  background-color: #533284;
+  background-image: linear-gradient(to bottom, #533284, #4c2e79);
+  background-repeat: repeat-x;
+  border-color: #533284 #533284 #4c2e79; }
+  .btn-inverse:hover {
+    background-color: #6a40a9;
+    background-image: linear-gradient(to bottom, #6a40a9, #5f3996);
+    background-repeat: repeat-x;
+    border-color: #6a40a9 #6a40a9 #5f3996; }
+
+.btn-primary {
+  background-color: #ee2a7e;
+  background-image: linear-gradient(to bottom, #ee2a7e, #d51164);
+  border-color: #ec136f #ec136f #d01062; }
+  .btn-primary:hover {
+    background-color: #f25a9a;
+    background-image: linear-gradient(to bottom, #f25a9a, #f25a9a);
+    border-color: #ee2a7e #ee2a7e #ec136f; }
+
+/*# sourceMappingURL=application.css.map */
