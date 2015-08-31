@@ -7,3 +7,5 @@ install.lock/*
 /system/logs/*.txt
 *.DS_Store
 /catalog/view/theme/stardom/*
+/image/cache/*
+/image/catalog/*
