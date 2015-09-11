@@ -4,6 +4,7 @@
 /vqmod/vqcache/*
 install.lock/*
 /system/cache/*
+!/system/cache/index.html
 /system/logs/*.txt
 *.DS_Store
 /catalog/view/theme/stardom/*
