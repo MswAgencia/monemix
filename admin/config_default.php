@@ -7,7 +7,7 @@ define('HTTP_CATALOG', 'http://localhost/monemix/');
 define('HTTPS_SERVER', 'http://localhost/monemix/admin/');
 define('HTTPS_CATALOG', 'http://localhost/monemix/');
 
-$root_dir = dirname(__FILE__);
+$root_dir = dirname(dirname(__FILE__));
 
 // DIR
 define('DIR_APPLICATION', "{$root_dir}/admin/");
