@@ -47,9 +47,9 @@
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
         <li>
-          <a href="https://www.facebook.com/monemixmodas"><img src="catalog/view/theme/theme/img/fb_ic.png"/></a>
-          <a href="http://www.instagram.com/lojamonemix"><img src="catalog/view/theme/theme/img/insta_ic.png"/></a>
-          <a href="https://plus.google.com/112016804262512931628/about"><img src="catalog/view/theme/theme/img/g_ic.png"/></a>
+          <a href="https://www.facebook.com/monemixmodas"><img src="catalog/view/theme/default/image/fb_ic.png"/></a>
+          <a href="http://www.instagram.com/lojamonemix"><img src="catalog/view/theme/default/image/insta_ic.png"/></a>
+          <a href="https://plus.google.com/112016804262512931628/about"><img src="catalog/view/theme/default/image/g_ic.png"/></a>
         </li>
         <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
