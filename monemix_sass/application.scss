@@ -11,8 +11,53 @@ $rosa: #F0428C;
 $roxo: #533284;
 $azul: #3a49a4;
 
-.product-thumb:hover {
+.list-group a.active,
+.list-group a.active:hover,
+.list-group a:hover {
+	color: #FFF;
+	background: $roxo;
+	text-shadow: 0 1px 0 #E4E4E4;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+	background-color: $roxo;
 	border-color: $roxo;
+}
+.pagination > li > a,
+.pagination > li > span {
+	color: $roxo;
+	border: solid 1px lighten($roxo, 50%);
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+	border-color: solid 1px lighten($roxo, 50%);
+	background-color: lighten($roxo, 58%);
+}
+.product-thumb {
+	&:hover {
+		border-color: $roxo;
+	}
+
+	.button-group {
+		button:first-child {
+			color: #FFF;
+			background-color: $roxo;
+
+			&:hover {
+				color: #FFF;
+				background-color: lighten($roxo, 15%);
+			}
+		}
+	}
+}
+
+.well.new-customer-well {
+
+	background-color: $roxo;
+	border: 1px solid darken($roxo, 5%);
+	color: #EFEFEF;
+	h2 {
+		color: #FFFFFF;
+	}
 }
 body {
   font-weight: 300;
