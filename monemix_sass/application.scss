@@ -11,6 +11,9 @@ $rosa: #F0428C;
 $roxo: #533284;
 $azul: #3a49a4;
 
+.product-thumb:hover {
+	border-color: $roxo;
+}
 body {
   font-weight: 300;
 }
